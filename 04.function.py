@@ -28,3 +28,8 @@ def avg(*ns): # 加上*字號可以傳入不定長度的參數
 avg(3,4)
 avg(3,5,10)
 avg(1,4,-1,-8)
+
+# lambda 匿名函式，就是一個小函式啦
+# lambda 參數 : 函式內容
+x = lambda a, b, c : a + b + c
+print(x(5, 6, 2))
